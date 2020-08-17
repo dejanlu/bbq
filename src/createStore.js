@@ -2,9 +2,10 @@ import { createStore, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
 
 import reducers from "./reducers";
+import { logger } from "./config/reduxLogger";
 
 // easy access to middleware
-export const middleware = [thunk];
+export const middleware = [thunk, logger];
 const appliedMiddleware = applyMiddleware(...middleware);
 
 // create store for testing
