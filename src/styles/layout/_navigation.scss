@@ -9,6 +9,8 @@
   display: flex;
   align-items: center;
 
+  z-index: 10;
+
   &__link {
     font-size: 1.6rem;
     color: $color-light;
