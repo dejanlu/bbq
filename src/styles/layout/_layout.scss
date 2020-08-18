@@ -4,6 +4,18 @@
 
   overflow: hidden;
 
+  @include respond(XL) {
+    height: 50vw;
+  }
+
+  @include respond(M) {
+    height: 65vw;
+  }
+
+  @include respond(S) {
+    height: 90vw;
+  }
+
   &--left {
     background-color: $color-dark;
     border-radius: 4rem 0 0 0;

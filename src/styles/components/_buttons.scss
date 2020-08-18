@@ -15,6 +15,11 @@
 
   cursor: pointer;
 
+  @include respond(S) {
+    font-size: 1.3rem;
+    padding: 1rem 2.2rem;
+  }
+
   &__primary {
     background-color: $color-primary;
   }

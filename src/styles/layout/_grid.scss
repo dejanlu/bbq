@@ -2,6 +2,10 @@
   display: grid;
   grid-template-columns: [wrapper-start] 1fr [wrapper-center] 1fr [wrapper-end];
   grid-template-rows: minmax(100vh, min-content);
+
+  @include respond(L) {
+    grid-template-rows: min-content;
+  }
 }
 
 .wrapper {
@@ -14,17 +18,37 @@
     background-color: $color-primary;
 
     grid-template-columns:
-      1fr [container-start] minmax(42rem, 90%)
+      1fr [container-start] minmax(90%, 85rem)
       [container-end];
 
-    padding: 5% 0;
+    padding: 5% 0 5% 5%;
+
+    @include respond(L) {
+      grid-column: wrapper-start / wrapper-end;
+
+      padding: 5% 5% 0 5%;
+    }
+
+    @include respond(S) {
+      padding: 10% 0 0 0;
+    }
   }
   &--right {
     grid-column: wrapper-center / wrapper-end;
     background-color: $color-dark;
 
-    grid-template-columns: [container-start] minmax(42rem, 90%) [container-end] 1fr;
+    grid-template-columns: [container-start] minmax(90%, 85rem) [container-end] 1fr;
 
-    padding: 5% 0;
+    padding: 5% 5% 5% 0;
+
+    @include respond(L) {
+      grid-column: wrapper-start / wrapper-end;
+
+      padding: 0 5% 5% 5%;
+    }
+
+    @include respond(S) {
+      padding: 0 0 10% 0;
+    }
   }
 }
