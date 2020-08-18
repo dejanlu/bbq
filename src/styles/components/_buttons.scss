@@ -1,0 +1,25 @@
+.button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 1.2rem 4rem;
+  font-family: $font-text;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+
+  border-radius: 50px;
+
+  text-transform: uppercase;
+  color: $color-light;
+
+  cursor: pointer;
+
+  &__primary {
+    background-color: $color-primary;
+  }
+
+  &__outline {
+    border: 2px solid $color-light;
+  }
+}
