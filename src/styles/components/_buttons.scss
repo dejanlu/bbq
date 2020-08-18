@@ -22,4 +22,10 @@
   &__outline {
     border: 2px solid $color-light;
   }
+
+  &__inline {
+    padding: 1rem 0.5rem;
+    border-radius: 0;
+    border-bottom: 1px solid $color-light;
+  }
 }

@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="hero">
       <h1 className="hero__heading">Stari recepti u novom vremenu!</h1>
       <ButtonOutline onClick={() => console.log("pozovi")}>
-        Pozovi{" "}
+        Pozovi
         <span className="hero__button-icon">
           <RiPhoneLine />
         </span>
