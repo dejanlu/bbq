@@ -1,0 +1,33 @@
+.grid {
+  display: grid;
+  grid-template-columns: [wrapper-start] 1fr [wrapper-center] 1fr [wrapper-end];
+  grid-template-rows: minmax(100vh, min-content);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: min-content;
+  align-content: center;
+
+  &--left {
+    grid-column: wrapper-start / wrapper-center;
+    background-color: $color-primary;
+
+    grid-template-columns:
+      minmax(4rem, 1fr) [container-start] minmax(42rem, 56rem)
+      [container-end];
+
+    padding: 4rem 0;
+  }
+  &--right {
+    grid-column: wrapper-center / wrapper-end;
+    background-color: $color-dark;
+
+    grid-template-columns: [container-start] minmax(42rem, 56rem) [container-end] minmax(
+        4rem,
+        1fr
+      );
+
+    padding: 4rem 0;
+  }
+}

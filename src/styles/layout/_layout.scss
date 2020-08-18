@@ -1,0 +1,25 @@
+.container {
+  grid-column: container-start / container-end;
+  height: 50rem;
+
+  overflow: hidden;
+
+  &--left {
+    background-color: $color-dark;
+    border-radius: 4rem 0 0 0;
+
+    position: relative;
+    z-index: 1;
+
+    box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.75);
+  }
+  &--right {
+    background-color: $color-primary;
+    border-radius: 0 0 4rem 0;
+
+    position: relative;
+    z-index: 1;
+
+    box-shadow: 20px 0px 50px 10px rgba(0, 0, 0, 0.75);
+  }
+}
