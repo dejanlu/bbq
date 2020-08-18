@@ -25,7 +25,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
      inkscape:cx="65.305492"
-     inkscape:cy="91.36427"
+     inkscape:cy="10.552067"
      inkscape:document-units="mm"
      inkscape:current-layer="layer7"
      inkscape:document-rotation="0"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,9 +55,10 @@
   <g
      inkscape:groupmode="layer"
      id="layer6"
-     inkscape:label="back">
+     inkscape:label="back"
+     style="display:inline;opacity:1;mix-blend-mode:normal">
     <rect
-       style="fill:#292c3f;stroke:#292c3f;stroke-width:0.0411849;paint-order:markers fill stroke;fill-opacity:1"
+       style="fill:#dfe0ce;fill-opacity:1;stroke:#292c3f;stroke-width:0.0411849;paint-order:markers fill stroke"
        id="rect2207"
        width="79.333817"
        height="39.646317"
@@ -77,35 +78,35 @@
       <path
          d="M 0,3000 V 0 H 4000 8000 V 3000 6000 H 4000 0 Z m 4698,427 c 3,-66 4,-68 40,-91 52,-32 110,-100 135,-155 24,-55 34,-178 18,-236 -23,-85 -96,-178 -177,-223 -12,-7 -5,-25 41,-102 30,-52 54,-99 52,-105 -5,-15 -64,-18 -77,-3 -6,7 -33,49 -59,93 l -47,80 -90,6 c -109,7 -168,34 -237,108 -72,77 -92,127 -92,236 0,76 4,99 26,145 33,70 79,123 135,156 l 44,26 v 69 70 l 143,-3 142,-3 z m -1313,-66 c 70,-32 105,-86 105,-162 0,-52 -21,-100 -57,-130 l -29,-24 30,-20 c 51,-34 76,-81 76,-142 0,-59 -15,-96 -52,-129 -51,-47 -87,-57 -220,-62 -69,-3 -138,-2 -152,2 l -26,6 v 334 c 0,183 3,336 7,339 3,4 67,7 142,7 111,0 143,-4 176,-19 z m 580,0 c 22,-10 50,-29 62,-42 64,-70 56,-191 -17,-252 l -27,-23 34,-22 c 48,-32 73,-78 73,-134 0,-83 -30,-132 -105,-170 -31,-16 -65,-22 -166,-26 -70,-2 -138,-2 -153,2 l -26,6 v 340 340 h 143 c 117,0 149,-4 182,-19 z m 438,-708 c 23,-7 22,-8 -19,-86 -34,-65 -36,-67 -75,-67 -45,0 -49,12 -22,63 40,79 64,109 81,102 9,-4 25,-10 35,-12 z"
          id="path2272"
-         style="fill:#ac1818;fill-opacity:1" />
+         style="fill:#720e07;fill-opacity:1" />
       <path
          d="m 4470,3413 v -28 h 85 85 v 28 27 h -85 -85 z"
          id="path2274"
-         style="fill:#ac1818;fill-opacity:1" />
+         style="fill:#720e07;fill-opacity:1" />
       <path
          d="m 4485,3309 c -93,-23 -188,-118 -202,-203 l -6,-36 h 277 276 l -6,28 c -10,39 -39,94 -69,130 -55,65 -181,103 -270,81 z"
          id="path2276"
-         style="fill:#ac1818;fill-opacity:1" />
+         style="fill:#720e07;fill-opacity:1" />
       <path
          d="m 4280,2980 c 0,-36 48,-117 91,-154 57,-49 125,-70 205,-63 119,9 210,88 248,215 l 7,22 h -275 c -271,0 -276,0 -276,-20 z"
          id="path2278"
-         style="fill:#ac1818;fill-opacity:1" />
+         style="fill:#720e07;fill-opacity:1" />
       <path
          d="m 3140,3195 v -115 h 99 c 97,0 100,1 129,29 30,31 46,77 36,108 -24,75 -59,93 -178,93 h -86 z"
          id="path2280"
-         style="fill:#ac1818;fill-opacity:1" />
+         style="fill:#720e07;fill-opacity:1" />
       <path
          d="m 3130,2885 v -115 h 116 c 114,0 116,0 144,28 37,37 47,89 26,134 -27,56 -59,68 -180,68 h -106 z"
          id="path2282"
-         style="fill:#ac1818;fill-opacity:1" />
+         style="fill:#720e07;fill-opacity:1" />
       <path
          d="m 3710,3196 v -116 h 96 c 135,0 173,25 174,112 0,39 -6,54 -29,80 -29,33 -30,33 -135,36 l -106,4 z"
          id="path2284"
-         style="fill:#ac1818;fill-opacity:1" />
+         style="fill:#720e07;fill-opacity:1" />
       <path
          d="m 3710,2885 v -115 h 114 c 111,0 115,1 144,28 39,37 50,88 28,134 -27,56 -59,68 -180,68 h -106 z"
          id="path2286"
-         style="fill:#ac1818;fill-opacity:1" />
+         style="fill:#720e07;fill-opacity:1" />
     </g>
   </g>
 </svg>
