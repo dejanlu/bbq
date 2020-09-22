@@ -32,3 +32,10 @@
 .text--dark {
   color: $color-dark;
 }
+
+// labels
+.label {
+  font-family: $font-text;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}

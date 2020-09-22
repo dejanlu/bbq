@@ -2,8 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Button = ({ children, onClick, type }) => {
+  const handleClick =
+    onClick === undefined ? null : (onClick = () => onClick());
   return (
-    <button onClick={() => onClick()} className={`button button__${type}`}>
+    <button {...handleClick} className={`button button__${type}`}>
       {children}
     </button>
   );
@@ -11,7 +13,7 @@ const Button = ({ children, onClick, type }) => {
 
 Button.propTypes = {
   children: PropTypes.node.isRequired,
-  onClick: PropTypes.func.isRequired,
+  onClick: PropTypes.func,
   type: PropTypes.string.isRequired,
 };
 

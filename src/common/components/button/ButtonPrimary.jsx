@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const ButtonPrimary = ({ children, onClick }) => {
   return (
-    <Button onClick={onClick} type="primary">
+    <Button onClick={onClick === undefined ? null : onClick} type="primary">
       {children}
     </Button>
   );
@@ -13,7 +13,7 @@ const ButtonPrimary = ({ children, onClick }) => {
 
 ButtonPrimary.propTypes = {
   children: PropTypes.node.isRequired,
-  onClick: PropTypes.func.isRequired,
+  onClick: PropTypes.func,
 };
 
 export default ButtonPrimary;

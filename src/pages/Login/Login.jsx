@@ -1,27 +1,22 @@
 import React from "react";
 
 import Navigation from "../../common/layout/Navigation/Navigation";
-import Video from "./Video";
-import Hero from "./Hero";
-import Action from "./Action";
+import LoginForm from "./LoginForm";
 
-const Index = () => {
+const Login = () => {
   return (
     <>
       <div className="wrapper wrapper--left">
         <section className="container container--left">
           <Navigation />
-          <Video />
-          <Hero />
+          <LoginForm />
         </section>
       </div>
       <div className="wrapper wrapper--right">
-        <section className="container container--right">
-          <Action></Action>
-        </section>
+        <section className="container container--right">register</section>
       </div>
     </>
   );
 };
 
-export default Index;
+export default Login;

@@ -1,9 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Layout from "./common/containers/Layout/Layout";
+import Layout from "./common/layout/Layout";
 
 import Index from "./pages/Index/Index";
+import Login from "./pages/Login/Login";
 import Menu from "./pages/Menu/Menu";
 import NotFound from "./pages/NotFound/NotFound";
 
@@ -12,15 +13,26 @@ const Routes = () => {
     <>
       <Router>
         <Switch>
-          <Layout>
-            <Route path="/" exact component={Index}></Route>
-          </Layout>
-          <Layout>
-            <Route path="/menu" exact component={Menu}></Route>
-          </Layout>
-          <Layout>
-            <Route path="*" component={NotFound}></Route>
-          </Layout>
+          <Route path="/" exact>
+            <Layout>
+              <Index />
+            </Layout>
+          </Route>
+          <Route path="/login" exact>
+            <Layout>
+              <Login />
+            </Layout>
+          </Route>
+          <Route path="/menu" exact>
+            <Layout>
+              <Menu />
+            </Layout>
+          </Route>
+          <Route path="*">
+            <Layout>
+              <NotFound />
+            </Layout>
+          </Route>
         </Switch>
       </Router>
     </>
