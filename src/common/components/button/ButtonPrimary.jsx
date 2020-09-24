@@ -3,9 +3,13 @@ import PropTypes from "prop-types";
 
 import Button from "./Button";
 
-const ButtonPrimary = ({ children, onClick }) => {
+const ButtonPrimary = ({ children, onClick, color = "" }) => {
   return (
-    <Button onClick={onClick === undefined ? null : onClick} type="primary">
+    <Button
+      onClick={onClick === undefined ? null : onClick}
+      type="primary"
+      color={color}
+    >
       {children}
     </Button>
   );

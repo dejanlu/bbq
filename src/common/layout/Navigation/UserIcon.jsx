@@ -1,14 +1,15 @@
 import React from "react";
 
-import { RiUserAddLine } from "react-icons/ri";
+import { RiUserAddLine, RiUserLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
-// icon for logged in user RiUserLine
-
-const UserIcon = () => {
+const UserIcon = ({ user }) => {
   return (
-    <Link className="navigation__user" to="/login">
-      <RiUserAddLine />
+    <Link
+      className="navigation__user"
+      to={`${user ? "/user/" + user.uid : "/login"}`}
+    >
+      {user ? <RiUserLine /> : <RiUserAddLine />}
     </Link>
   );
 };
